@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Filters", "Filters", "{6863D249-5EEE-4582-9A82-57D311156B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lunaria.AspNetCore.Filters.ExceptionLogging", "Lunaria.AspNetCore.Filters.ExceptionLogging\Lunaria.AspNetCore.Filters.ExceptionLogging.csproj", "{092BE75D-8164-40FE-8AB2-29D873F7B0AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{AAFE4D38-FC21-46EE-804F-B42017D4716E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lunaria.AspNetCore", "Lunaria.AspNetCore\Lunaria.AspNetCore.csproj", "{B9545116-667A-4C73-B128-6C41296F205F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{23A0A337-0BE0-4CCE-8A45-1CCDFEB38EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lunaria.AspNetCore.Tests.WebApi", "Lunaria.AspNetCore.Tests.WebApi\Lunaria.AspNetCore.Tests.WebApi.csproj", "{62332602-F1DE-4EF1-A83C-B628449018E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{092BE75D-8164-40FE-8AB2-29D873F7B0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092BE75D-8164-40FE-8AB2-29D873F7B0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092BE75D-8164-40FE-8AB2-29D873F7B0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092BE75D-8164-40FE-8AB2-29D873F7B0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9545116-667A-4C73-B128-6C41296F205F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9545116-667A-4C73-B128-6C41296F205F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9545116-667A-4C73-B128-6C41296F205F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9545116-667A-4C73-B128-6C41296F205F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62332602-F1DE-4EF1-A83C-B628449018E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62332602-F1DE-4EF1-A83C-B628449018E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62332602-F1DE-4EF1-A83C-B628449018E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62332602-F1DE-4EF1-A83C-B628449018E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{092BE75D-8164-40FE-8AB2-29D873F7B0AD} = {6863D249-5EEE-4582-9A82-57D311156B45}
+		{B9545116-667A-4C73-B128-6C41296F205F} = {AAFE4D38-FC21-46EE-804F-B42017D4716E}
+		{62332602-F1DE-4EF1-A83C-B628449018E3} = {23A0A337-0BE0-4CCE-8A45-1CCDFEB38EBB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C52AAD6-2250-4556-8E7A-8871128DED26}
+	EndGlobalSection
+EndGlobal
